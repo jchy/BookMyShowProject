@@ -32,7 +32,7 @@
     </div>
 
     <span id="sideMenu" onclick="openNav()">&#9776;</span>
-    <a href="Login.html" id="signIn">Sign in</a>
+    <a href="Home.html" id="signIn">Sign out</a>
 
     <input type="text" placeholder="🔍 Search for Movies, Events, Plays, Sports and Activities" id="userInput" />
 
@@ -93,29 +93,30 @@
 
     <!----------------------------------------- Side Navbar  ------------------------------------------------------->
 
+   
     <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
 
       <div>
-        <a href="#">
-          <h2>Hey!</h2>
-        </a>
+        <a href="#"> <h2>Hey!</h2> </a>
       </div>
 
       <div>
-        <a href="#">Unlock special offers and great benefits</a>
+        <a href="movies.html">Book Movies</a>
       </div>
 
       <div>
-        <a href="#">Notifications</a>
+        <a href="Buzz.html">Explore Buzz</a>
       </div>
 
       <div>
-        <a href="#">QuickPay</a>
+        <a href="listYourShow.html">Host Your Show</a>
       </div>
 
       <div>
-        <a href="#">Booking History</a>
+        <a href="Stream.html">Got to Stream</a>
       </div>
 
       <div>
@@ -127,13 +128,16 @@
       </div>
 
       <div>
-        <a href="#">BookASmile</a>
+        <a href="movies.html">BookASmile</a>
+      </div>
+      <div>
+        <a href="#">Settings</a>
       </div>
       <div>
         <a href="#">Help & Support</a>
       </div>
       <div>
-        <a href="#">Settings</a>
+        <a href="Home.html">Log Out</a>
       </div>
     </div>
   </div>
@@ -1987,6 +1991,7 @@ function changeRegion(){
       regionArray[i].children[0].src = `https://in.bmscdn.com/m6/images/common-modules/regions/${initialRegionArr[i]}.png`;
     }
   }
+  document.getElementById("navBarSeconfLine").style.backgroundColor = "rgb(34,37,57)";
  }
 </script>
 
