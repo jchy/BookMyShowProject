@@ -63,7 +63,7 @@ https://anishtiwari09.github.io/bookmyshowclones/HTML/Home.html
 ## Snap Shots: 
 
 ### Home Page
-![Header](https://rawat2511.github.io/images/BookMyShow_1.png)
+![Header]<img width="1440" alt="Screenshot 2022-04-11 at 8 34 16 AM" src="https://user-images.githubusercontent.com/91217491/162658410-73f2ad3c-a4b3-4f35-8cfb-ef70ccba9e3e.png">
 
 ### Buzz Page
 ![Header](https://rawat2511.github.io/images/BookMyShow_2.png)
